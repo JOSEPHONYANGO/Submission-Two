@@ -230,3 +230,30 @@ p.logo-text .black {
         }
     }
 }
+/* Services Section Styling */
+#services {
+    background-color: #f7fdf6;
+    display: flex;
+    padding: 10% 5%;
+
+    justify-content: center;
+}
+.delivery {
+    text-align: center;
+    border: solid 0.15vw #550312;
+    border-radius: 1vw;
+    padding: 9% 5% 5% 5%;
+    margin: 0 2%;
+    height: auto;
+    width: 40%;
+}
+.quality,
+.tasty {
+    text-align: center;
+    border: solid 0.15vw #550312;
+    border-radius: 1vw;
+    padding: 5% 3%;
+    margin: 4% 2%;
+    height: auto;
+    width: 30%;
+}
