@@ -393,3 +393,116 @@ p.logo-text .black {
     color: #000;
     font-weight: 700;
 }
+#slider {
+    background-color: #f7fdf6;
+    display: flex;
+    padding: 10% 6%;
+}
+
+.info {
+    width: 50%;
+}
+
+.info h3 {
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #f6b400;
+}
+
+.info h3 .black {
+    color: black;
+}
+
+.info p {
+    color: #615757;
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+.info .controls {
+    display: flex;
+    align-items: center;
+    font-size: 6vw;
+    color: #c4c4c4;
+    align-self: center;
+}
+
+.info .controls .first {
+    color: #ff6d21;
+    padding: 2%;
+}
+
+.info .controls .second,
+.info .controls .third {
+    padding: 2%;
+}
+
+.info .controls .arrow {
+    color: #fa9529;
+    font-size: 6vw;
+    padding-left: 5%;
+    transform: rotate(-45deg);
+    margin-top: 3%;
+}
+
+.image-slider {
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image-slider .front {
+    width: 30vw;
+    /*width: 70%; would also work well but I am using vw units for consistency*/
+    position: absolute;
+    margin-bottom: -10%;
+}
+
+.image-slider .back {
+    width: 40vw;
+}
+
+/* CALL TO ACTION */
+#cta {
+    background-color: #f6b400;
+    display: flex;
+    padding: 10% 5%;
+}
+#cta .platform {
+    padding: 5% 5% 5% 0;
+    width: 45%;
+}
+
+#cta .platform h3 {
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+#cta .platform .apple-android {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#cta .platform .apple-android img {
+    width: 15vw;
+    padding: 0 3%;
+    margin-left: -3%;
+    cursor: pointer;
+}
+
+#cta .mobile-mockups {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cta .mobile-mockups img {
+    background-color: #fff;
+    width: 20vw;
+    border-radius: 2.8vw;
+    border: none;
+    outline: none;
+    box-shadow: -1vw 1vw 1vw rgba(0, 0, 0, 0.2);
+}
