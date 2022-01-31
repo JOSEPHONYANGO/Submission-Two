@@ -218,6 +218,7 @@ p.logo-text .black {
         height: auto;
         margin-top: -20%;
         margin-left: 5%;
+        
     }
     
     @media screen and (max-width: 500px) {
@@ -256,4 +257,139 @@ p.logo-text .black {
     margin: 4% 2%;
     height: auto;
     width: 30%;
+}
+.quality svg,
+.delivery svg,
+.tasty svg {
+    width: 7vw;
+    height: 7vw;
+    color: #f6b400;
+}
+
+.quality h3,
+.delivery h3,
+.tasty h3 {
+    color: #550312;
+    text-transform: capitalize;
+    font-size: 2vw;
+}
+
+.quality p,
+.delivery p,
+.tasty p {
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+/* Menu Styling */
+#menu {
+    padding: 5%;
+    width:100%;
+}
+
+.cards {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menu .title {
+    text-align: center;
+}
+
+#menu .title h3 {
+    text-transform: capitalize;
+    font-size: 2.5vw;
+    color: #f6b400;
+}
+
+#menu .title h3 span {
+    color: black;
+}
+
+#menu hr {
+    background-color: #fa9529;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    margin-top: 2%;
+    width: 8%;
+    height: 0.7vw;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    position: relative;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+    border-radius: 3vw;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
+    overflow: hidden;
+}
+.card .ribbon {
+    font-weight: bold;
+    font-size: 1.1vw;
+    width: 50%;
+    padding: 2% 5%;
+    text-align: center;
+    transform: rotate(40deg);
+    text-transform: capitalize;
+    background-color: #ff6d21;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 48%;
+    color: #fff;
+}
+
+.card img {
+    width: 20vw;
+    /*width: 80%; works as well but I am keeping it "vw" for consistency's sake*/
+}
+
+.card h3 {
+    text-transform: uppercase;
+    color: #550312;
+    font-size: 2vw;
+}
+
+.card p {
+    font-size: 1vw;
+    line-height: 1.8vw;
+}
+
+.card div {
+    padding: 7% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card div .price {
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-left: 2%;
+}
+
+.card div .icon {
+    width: 5.5vw;
+    background-color: #e1ebe6;
+    padding: 1.5% 7%;
+    border-radius: 1vw;
+}
+
+.card div .add-to-cart {
+    font-size: 1.5vw;
+    font-weight: 500;
+    background-color: #e1ebe6;
+    padding: 4% 7%;
+    border-radius: 1vw;
+    color: #5d9676;
+}
+
+.card div .add-to-cart .quantity {
+    color: #000;
+    font-weight: 700;
 }
