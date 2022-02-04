@@ -331,7 +331,9 @@ p.logo-text .black {
     justify-content: center;
     align-items: center;
 }
-
+.cards {
+    display:flex;
+}
 .card {
     width: 30vw;
     height: 44vh;
