@@ -212,6 +212,7 @@ p.logo-text .black {
     
     .firstpart-content-b {
         width: 56%;
+        justify-content: center;
     }
     
     @media screen and (max-width: 500px) {
@@ -226,6 +227,7 @@ p.logo-text .black {
         height: auto;
         margin-top: -20%;
         margin-left: 5%;
+        justify-content: center;
         
     }
     
