@@ -328,11 +328,13 @@ p.logo-text .black {
     margin-top: 2%;
     width: 8%;
     height: 0.7vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    width: 30%;
-    height: auto;
+    width: 30vw;
+    height: 44vh;
     position: relative;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
     border-radius: 3vw;
@@ -340,6 +342,7 @@ p.logo-text .black {
     margin-top: 5%;
     text-align: center;
     overflow: hidden;
+    display: flex;
 }
 .card .ribbon {
     font-weight: bold;
@@ -357,7 +360,7 @@ p.logo-text .black {
 }
 
 .card img {
-    width: 20vw;
+    width: 10vw;
     
 }
 
