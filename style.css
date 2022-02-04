@@ -28,6 +28,10 @@ body {
     margin-top: 90px;
     margin-left: 30px;
 }
+.firstpart-content-a p{
+    margin-left: 30px;
+    font-size: 24px;
+}
 #firstpart header{
     height: 7%;
     padding: 1% 2%;
