@@ -9,9 +9,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 #firstpart {
+    /* display:flex; */
     width: 100%;
     height: auto;
     background-image: linear-gradient(101deg, #ffffff 50%, #f6b400 50.1%);
+}
+.firstpart-content{
+    display: flex;
 }
 @media screen and (max-width: 500px) {
     #firstpart {
@@ -29,11 +33,11 @@ body {
     }
 }
 #firstpart header nav{
-    padding-top: 1%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 1%;
 }
 .logo-g {
     width: 20%;
@@ -133,12 +137,15 @@ p.logo-text .black {
         height: auto;
         align-items: center;
         padding: 12% 0 5% 0;
+        /* margin-left: 15%; */
     }
     
     .firstpart-content-a {
         padding-bottom: 5%;
+        padding-top: 30%;
         padding-left: 4%;
-        padding-right: 0;
+        padding-right: 10%;
+        margin: 15%;
         width: 44%;
     }
     
@@ -150,10 +157,10 @@ p.logo-text .black {
     }
     
     .firstpart-content-a h1 {
-        font-size: 4vw;
+        font-size: 20vw;
         font-weight: 700;
         margin: 0;
-        line-height: 4.5vw;
+        line-height: 9vw;
     }
     
     @media screen and (max-width: 500px) {
@@ -282,15 +289,20 @@ p.logo-text .black {
 }
 /* Menu Styling */
 #menu {
-    padding: 5%;
+    display:flex;
+    padding: 10% 5%;
     width:100%;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .cards {
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #menu .title {
@@ -346,7 +358,7 @@ p.logo-text .black {
 
 .card img {
     width: 20vw;
-    /*width: 80%; works as well but I am keeping it "vw" for consistency's sake*/
+    
 }
 
 .card h3 {
