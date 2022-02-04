@@ -147,6 +147,7 @@ p.logo-text .black {
         padding-right: 10%;
         margin: 15%;
         width: 44%;
+        font-size: xx-large;
     }
     
     @media screen and (max-width: 500px) {
@@ -307,6 +308,8 @@ p.logo-text .black {
 
 #menu .title {
     text-align: center;
+    justify-content: center;
+    
 }
 
 #menu .title h3 {
@@ -317,6 +320,8 @@ p.logo-text .black {
 
 #menu .title h3 span {
     color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu hr {
@@ -330,6 +335,7 @@ p.logo-text .black {
     height: 0.7vw;
     justify-content: center;
     align-items: center;
+
 }
 .cards {
     display:flex;
